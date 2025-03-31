@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # 17
 VisualStudioVersion = 17.11.35111.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features", "src\Features\Features.csproj", "{A2FD8DEC-DFC8-43BF-8D3E-089517C0EB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChrisMavrommatis.Features", "src\ChrisMavrommatis.Features\ChrisMavrommatis.Features.csproj", "{A2FD8DEC-DFC8-43BF-8D3E-089517C0EB3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{542B516E-EDFC-438E-9F49-1A190C683036}"
 EndProject

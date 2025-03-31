@@ -5,7 +5,7 @@ namespace ChrisMavrommatis.Features.Providers.Configuration;
 
 internal class ConfigurationFeatureProvider : IFeatureProvider
 {
-    internal const string SectionName = "Features";
+    internal const string SectionName = "ChrisMavrommatis.Features";
     private Dictionary<string, object> features = new Dictionary<string, object>();
 
     public ConfigurationFeatureProvider(IConfiguration configuration)
