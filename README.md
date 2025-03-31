@@ -1,4 +1,4 @@
-# Features
+# ChrisMavrommatis.Features
 
 `ChrisMavrommatis.Features` is a .NET library that provides a flexible and extensible solution for managing features in a software application. It allows you to enable or disable specific features based on various conditions, such as configuration settings or environment variables.
 
