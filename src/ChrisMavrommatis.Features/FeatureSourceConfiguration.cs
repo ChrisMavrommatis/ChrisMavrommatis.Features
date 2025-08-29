@@ -23,7 +23,7 @@ public class FeatureSourceConfiguration
     {
         return this.Provider<EnvironmentVariableFeatureProvider>();
     }
-    public FeatureManagerConfiguration Configuration(IConfiguration configuration)
+    public FeatureManagerConfiguration Configuration(IConfiguration configuration, string? sectionName = null)
     {
         var provider = new ConfigurationFeatureProvider(configuration);
         return this.Provider(provider);

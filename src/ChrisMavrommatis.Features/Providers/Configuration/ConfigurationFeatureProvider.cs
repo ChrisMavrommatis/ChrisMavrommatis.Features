@@ -5,12 +5,12 @@ namespace ChrisMavrommatis.Features.Providers.Configuration;
 
 internal class ConfigurationFeatureProvider : IFeatureProvider
 {
-    internal const string SectionName = "ChrisMavrommatis.Features";
+    internal const string DefaultSectionName = "Features";
     private Dictionary<string, object> features = new Dictionary<string, object>();
 
-    public ConfigurationFeatureProvider(IConfiguration configuration)
+    public ConfigurationFeatureProvider(IConfiguration configuration, string? sectionName = null)
     {
-        var section = configuration.GetSection(SectionName);
+        var section = configuration.GetSection(sectionName ?? DefaultSectionName);
         section.Bind(this.features);
     }
 
